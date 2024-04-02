@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".filmes">
+
+    <HorizontalScrollView
+        android:layout_width="417dp"
+        android:layout_height="178dp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="328dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brooklyn99"
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/broklyn" />
+
+            <ImageView
+                android:id="@+id/napoleao"
+                android:layout_width="139dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/napoleao" />
+
+            <ImageView
+                android:id="@+id/oppenheimer"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/oppenheimer" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="411dp"
+        android:layout_height="174dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="557dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/pobrescriaturas"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/pobres" />
+
+            <ImageView
+                android:id="@+id/teenwolf"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/teenwolf" />
+
+            <ImageView
+                android:id="@+id/lugares"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/gossip" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="412dp"
+        android:layout_height="178dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="99dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/aquaman"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/aquaman" />
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/avatar" />
+
+            <ImageView
+                android:id="@+id/barbie"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/barbie" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="#404040"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+</androidx.constraintlayout.widget.ConstraintLayout>
